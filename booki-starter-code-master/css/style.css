@@ -388,10 +388,12 @@ input[type="submit"]{
     height: 380px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
+    object-fit: cover;
 }
 
 .activites-title{
-    padding: 20px;
+   
+    margin-bottom: 50px;
 }
 
 #activites h3{
@@ -492,6 +494,7 @@ footer li{
 
     .header-nav {
         width: 100%;
+        margin: auto;
     }
 
 
@@ -582,11 +585,13 @@ input[type="submit"]{
     display: flex;
     flex-direction: column;
     width: 100%;
+    
 }
 
 .filter h3 {
     text-align: left;
     margin: 0;
+    margin-left: 40px;
     padding: 0;
     width: 100%;
 }
@@ -632,6 +637,10 @@ input[type="submit"]{
     width: 100%;
 }
 
+
+#hebergements{
+    background-color: white;
+}
 .hebergements-cards a {
     width: 100%;
 }
@@ -680,6 +689,7 @@ footer{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    
     
   
 
