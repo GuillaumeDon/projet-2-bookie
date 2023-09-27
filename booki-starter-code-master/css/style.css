@@ -423,6 +423,8 @@ footer li{
 }
 
 
+
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
@@ -470,6 +472,7 @@ footer li{
 
     .main-container {
         padding: 0px;
+        margin: auto;
         
         
      
@@ -602,7 +605,10 @@ input[type="submit"]{
 }
 
 
+#activites{
 
+    margin: auto;
+}
 .activites-cards{
     
     flex-direction: column;
@@ -648,8 +654,8 @@ input[type="submit"]{
 
 .hebergements-cards .card img{
 
-    width: auto;
-    object-fit: contain;
+    width: 100%;
+    object-fit: cover;
     
      
  }
@@ -672,9 +678,20 @@ input[type="submit"]{
 footer{
    
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
   
 
 }
+
+footer ul li, 
+footer ul li h3{
+    
+    text-align: left;
+}
+
+
 
 }
 
