@@ -456,7 +456,7 @@ footer h3 {
 
 footer li {
     text-align: left;
-    margin-right: 130px;
+    /* margin-right: 130px; */
     line-height: 2rem;
 }
 
@@ -514,6 +514,11 @@ footer li {
         border-top-left-radius: 20px;
         object-fit: cover; */
     }
+
+    /* #activites{
+        width: 100%;
+        
+    } */
 
 }
 
@@ -639,7 +644,7 @@ footer li {
         align-items: center;
         justify-content: center;
         position: relative;
-        left: -10px;
+        left: -5px;
         box-shadow: 1px 2px 1px lightgrey;
     }
 
@@ -689,7 +694,7 @@ input[type="text"]{
 
     #activites {
         margin: auto;
-        padding: 0;
+        padding: 40px;
     }
 
     #activites img {
@@ -705,6 +710,7 @@ input[type="text"]{
         align-items: center;
         justify-content: center;
     }
+
 
     .hebergements-and-populaires {
         order: inherit;
@@ -727,7 +733,7 @@ input[type="text"]{
     #hebergements {
         background-color: white;
         width: 100%;
-        padding: 0px;
+        padding: 50px;
     }
 
     .hebergements-cards a {
@@ -776,6 +782,7 @@ input[type="text"]{
         align-items: flex-start;
         justify-content: center;
         width: 100%;
+        
     }
 
     footer ul li,
