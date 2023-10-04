@@ -16,16 +16,17 @@
 
 body {
     margin: auto;
-    margin: 0px;
+    /* margin: 0px; */
     overflow-x: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 1440px;
 }
 
 .main-container {
     width: 100%;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     padding: 0 50px;
     box-sizing: border-box;
 }
@@ -398,7 +399,8 @@ input[type="submit"]:hover {
 #activites {
     /* background-color: red; */
     padding: 30px;
-    width: 100%;
+    /* width: 100%; */
+    max-width: 1440px;
 }
 
 .activites-cards {
@@ -520,7 +522,7 @@ footer li {
 @media (max-width: 767.98px) {
 
     .main-container {
-        padding: 0 20px;
+        /* padding: 0 20px; */
         /* margin: none; */
         width: max-content;
         overflow-x: hidden;
