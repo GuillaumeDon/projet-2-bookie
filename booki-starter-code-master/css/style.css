@@ -514,6 +514,7 @@ footer li {
         border-top-left-radius: 20px;
         object-fit: cover; */
     }
+
 }
 
 
@@ -522,7 +523,7 @@ footer li {
 @media (max-width: 767.98px) {
 
     .main-container {
-        /* padding: 0 20px; */
+        padding: 0 0;
         /* margin: none; */
         width: max-content;
         overflow-x: hidden;
@@ -571,8 +572,8 @@ footer li {
 
 
     .search-bar {
-        /* width: 100%; */
-        margin-left: 8.125rem;
+        width: 90%;
+        /* margin-left: 8.125rem; */
         align-items: center;
         justify-content: center;
     }
@@ -618,7 +619,12 @@ footer li {
         color: white;
         border: none;
         border-radius: 15px;
-        visibility: hidden;
+        /* visibility: hidden; */
+        display: none;
+    }
+
+    input[type="text"]{
+        width: 90%;
     }
 
     .fa-magnifying-glass {
@@ -633,7 +639,7 @@ footer li {
         align-items: center;
         justify-content: center;
         position: relative;
-        left: -140px;
+        left: -10px;
         box-shadow: 1px 2px 1px lightgrey;
     }
 
@@ -776,4 +782,6 @@ input[type="text"]{
     footer ul li h3 {
         text-align: left;
     }
+
+
 }
