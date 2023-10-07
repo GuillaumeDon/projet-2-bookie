@@ -601,10 +601,10 @@ footer li {
 
 
     input[type="submit"] {
-        background-color: var(--main-color);
+        /* background-color: var(--main-color);
         color: white;
         border: none;
-        border-radius: 15px;
+        border-radius: 15px; */
         display: none;
     }
 
@@ -618,13 +618,13 @@ footer li {
         color: white;
         border: none;
         border-radius: 15px;
-        width: 49px;
-        height: 49px;
+        width:51px;
+        height: 51px;
         display: flex;
         align-items: center;
         justify-content: center;
         position: relative;
-        left: -5px;
+        left: -8px;
         box-shadow: 1px 2px 1px lightgrey;
     }
 
@@ -683,7 +683,8 @@ footer li {
     #hebergements {
         background-color: white;
         width: 100%;
-        padding: 50px;
+        padding: 40px;
+         /* Correction pour modifier l'ordre des cartes */
     }
 
     .hebergements-cards a {
@@ -755,5 +756,18 @@ footer li {
     footer ul li,
     footer ul li h3 {
         text-align: left;
+    }
+
+/**************CORRECTION MODIFICATION DE L'ORDRE DES CARTES*************/
+    .card-hebergement-1{
+        order:  -6;
+    }
+
+    .card-hebergement-5{
+        order: -3;
+    }
+
+    .card-hebergement-2{
+        order: 6;
     }
 }
